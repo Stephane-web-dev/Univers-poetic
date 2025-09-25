@@ -6,7 +6,7 @@
     }
     
     header {
-    background: url(image/photo.jpg);
+    background: url(photo.jpg);
     background-position: center;
     background-size: cover;
     padding: 15px;
