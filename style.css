@@ -1,0 +1,201 @@
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #334155;
+    color: #f1f5f9;
+    }
+    
+    header {
+    background: url(image/photo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+    padding: 25px 40px;
+    top: 0;
+    z-index: 10;
+    border-radius:0px 0px 100px 100px;
+    justify-content: space-between;
+    position: sticky;
+    
+    
+    }
+    h1{
+    font-family: serif;
+    border-radius: 50px;
+    border-bottom: 4px inset red;
+    border-top: 4px inset #6a11cb;
+    }
+    nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    background: transparent;
+    font-weight: bold;
+    }
+    
+    nav a:hover{
+    color: #ef4444;
+    
+    }
+    
+    section {
+    display: none;
+    padding:
+    min-height: 70vh;
+    text-align: center;
+    }
+    section.active { display: block; }
+    .poeme {
+    background: rgba(255,255,255,0.3);
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 4px solid #2575fc;
+    border-radius: 8px;
+    }
+    .poeme h3 {
+    margin: 0;
+    color: #6a11cb;
+    }
+    section h2 {
+    margin-bottom: 20px;
+    }
+    .illustration {
+    display: block;
+    margin: 0% auto 0% auto;
+    width: 50%;
+    height: auto;
+    opacity: 0.9;
+    border-radius: 50%;
+   
+    }
+
+     .section {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      margin: 0;
+      padding: 15px;
+      background: silver;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+      
+       .button:hover{
+       border:0px;
+       color: transparent;}
+       
+    .content {
+      display: none;
+      padding: 15px;
+      
+    }
+    footer{
+    padding: 20px;
+    background: #000;
+    color: white;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    }
+    footer a{
+    color: white;
+    }
+    .search-box {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .search-box input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    }
+   
+   
+    
+    .search-box {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .search-box input {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+ 
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .poem {
+      background: rgba(0,255,255,0.3);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: none; 
+    }
+    .poem.active {
+      display: block;
+    }
+  
+
+
+.poem {
+  color: white;
+  padding: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  background-size: cover;
+  background-blend-mode: overlay; 
+}
+
+#accueil {
+  background: linear-gradient(135deg, rgba(79,172,254,0.8), rgba(142,68,173,0.8)), url("https://www.transparenttextures.com/patterns/white-paper.png");
+}
+
+#mespoemes {
+  background: linear-gradient(135deg, rgba(0,198,255,0.8), rgba(0,114,255,0.8)), url("https://www.transparenttextures.com/patterns/cream-paper.png");
+}
+
+
+#apropos {
+  background: linear-gradient(135deg, rgba(255,153,102,0.8), rgba(255,94,98,0.8)), url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+}
+
+#contact {
+  background: linear-gradient(135deg, rgba(17,153,142,0.8), rgba(56,239,125,0.8)), url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+}
+
+    
+    @media(min-width: 768px) {
+      nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        width: auto;
+           flex-direction: column;
+      
+      position: absolute;
+      }
+      nav a {
+        border: none;
+        padding: 0 15px;
+        font-weight: bold;
+      }
+      .menu-btn { display: none; }
+    }
